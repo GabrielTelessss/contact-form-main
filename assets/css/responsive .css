@@ -1,0 +1,33 @@
+/* existing code */
+
+@media only screen and (max-width: 374px) {
+
+    body{
+        overflow: auto;
+    }
+
+    .container {
+        width: 300px;
+        height: 600px;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .firts input,
+    .last input {
+        width: 100%;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+        padding: 5px;
+    }
+    
+}
